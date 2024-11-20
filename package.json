@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"vite",
+
+    "dev":"npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch",
     "build":"vite build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
